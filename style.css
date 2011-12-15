@@ -1,0 +1,210 @@
+/*
+Theme Name: NYCGA 2012
+Description: Three column bp-default based child theme.
+Version: 1.0
+Author: Internet Working Group of the NY General Assembly
+Template: bp-default
+Author URI: http://www.nycga.net
+Tags: buddypress, three-column, multi-site
+*/
+
+@import url('css/reset.css');
+@import url('css/grid_1000_24.css');
+@import url('css/nycga_core.css');
+@import url('css/font-oswald.css');
+@import url('css/type.css');
+@import url('css/events.css');
+
+#masthead{ 
+	margin-bottom:.5em;
+}
+
+#header h1,
+#header h1 a{
+	line-height: 1;
+	text-transform: uppercase;
+	color:#000 !important;
+}
+
+#header h1 .ows{
+	font-size: .75em;
+	margin-bottom:.25em;
+}
+
+a.button{
+	background:#999;
+	color: #fff;
+	text-decoration: none;
+	font-size:1em;
+	border-radius: 4px;
+	margin: 0.125em;
+	display: inline-block;
+	padding:.125em .75em;
+	text-align: center;
+	line-height:2;
+}
+
+#donate a.button{
+	display: block;
+	font-size: 2em;
+	background: #0af;
+	line-height: 1;
+	padding: .125em .25em;
+	font-family:"OSWALD", helvetica, sans-serif;
+	width: 204px;
+	float:right;
+}
+
+.widget{
+	margin-bottom: 1em;
+}
+
+.widgettitle{
+	margin-bottom: .5em !important;
+}
+
+.em-location-map{
+	border-radius: 3px;
+}
+
+.home-page div#whats-new-post-in-box {display:none;}
+
+/****************nav bar ***************/
+
+#navigation {
+	text-align: left;
+	background: #ffcc00; /* Old browsers */
+}
+
+#nav {
+	list-style: none;
+	padding: 0;
+	position: relative;
+	right: auto;
+	bottom: 0;
+}
+
+#nav li {
+	margin-left: 5px;
+	display: inline-block;
+	zoom: 1; /* IE6-7 */
+	*display:inline; /* IE6-7 */
+	_height: 40px; /* IE6 */
+}
+
+#nav li a {
+	text-transform: uppercase;
+/*	font-size: 11px;
+*/	font-weight:bold;
+	background: #ffcc00; /* Old browsers */
+		background: -moz-linear-gradient(top,  #ffcc00 0%, #ffcc33 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffcc00), color-stop(100%,#ffcc33)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #ffcc00 0%,#ffcc33 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #ffcc00 0%,#ffcc33 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #ffcc00 0%,#ffcc33 100%); /* IE10+ */
+		background: linear-gradient(top,  #ffcc00 0%,#ffcc33 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc00', endColorstr='#ffcc33',GradientType=0 ); /* IE6-9 */
+	color:#262626;
+/*	padding: 10px 15px;
+*/}
+
+#nav li.selected a,
+#nav > li.current-menu-item a,
+#nav > li.current_page_item a,
+#nav > li.current_page_ancestor a {
+	background: #ffcc00; /* Old browsers */
+		background: -moz-linear-gradient(top,  #ffcc00 0%, #ffcc33 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffcc00), color-stop(100%,#ffcc33)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #ffcc00 0%,#ffcc33 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #ffcc00 0%,#ffcc33 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #ffcc00 0%,#ffcc33 100%); /* IE10+ */
+		background: linear-gradient(top,  #ffcc00 0%,#ffcc33 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc00', endColorstr='#ffcc33',GradientType=0 ); /* IE6-9 */
+	color: #fff;
+}
+
+#nav .sfhover ul li,
+#nav :hover ul li {
+/*	width: 175px;
+*/}
+
+#nav li:hover > a, 
+#nav > li:active > a,
+#nav li.sfhover > a {
+	background: #FC0;
+	color: #666;
+}
+
+#nav .sfhover ul li > a,
+#nav :hover ul li > a {
+	background: #FFf;
+}
+
+#nav .sfhover ul, 
+#nav :hover ul{
+	border:none;
+/*	width:170px;
+*/}
+
+#nav li.sfhover ul li > a,
+#nav li:hover ul li > a {
+	color: #262626;
+}
+
+
+#nav li ul li.sfhover > a,
+#nav li ul li:hover > a {
+	color: #666;
+}
+
+#nav > li > a {
+}
+
+#nav li#menu-item-1907 a {
+	background: #f79400; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f79400 0%, #e27900 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f79400), color-stop(100%,#e27900)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f79400 0%,#e27900 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f79400 0%,#e27900 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f79400 0%,#e27900 100%); /* IE10+ */
+	background: linear-gradient(top,  #f79400 0%,#e27900 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f79400', endColorstr='#e27900',GradientType=0 ); /* IE6-9 */
+	color:#fff;
+}
+
+#nav li#menu-item-1907:hover a, 
+#nav li#menu-item-1907.sfhover a {
+	color:#999;
+}
+
+
+/* sidebarstuff */
+
+.sidebar{
+	margin-top: 2.5em;
+}
+
+/* user chip */
+#sidebar-me{
+	padding:0.5em !important;
+}
+
+#sidebar-me a.avatar{
+	display: block;
+	float: left;
+	border: 3px #fff solid;
+	margin: 0 1em 0 0;
+}
+
+
+/* events */
+.event-actions a.button{
+	font-size: 5em;
+}
+
+/* social */
+.really_simple_share{
+	margin-top: 2em;
+	border-top: 1px #dedede solid;
+	padding-top: 1em;
+}
